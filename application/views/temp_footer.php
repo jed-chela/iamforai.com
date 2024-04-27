@@ -1,15 +1,15 @@
     
-    <footer class="bg-primary">
+    <footer class="">
       <div class="container-fluid">
         <div class="footer-social-links">
-          <span><a href="https://www.snapchat.com/add/myasiwajustory?share_id=4HvAVE6-Juo&locale=en-GB" target="_blank">
-            <i class="fa fa-snapchat"></i></a> </span>
-          <span><a href="https://www.tiktok.com/@myasiwajustory?is_from_webapp=1&sender_device=pc" target="_blank">
+          <span><a href="#" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a> </span>
+          <span><a href="#" target="_blank">
+            <i class="fa-brands fa-facebook"></i></a> </span>
+          <span><a href="#" target="_blank">
+            <i class="fa-brands fa-x"></i></a> </span>
+          <span><a href="#" target="_blank">
             <i class="fa-brands fa-tiktok"></i></a> </span>
-          <span><a href="https://www.instagram.com/myasiwajustory/" target="_blank">
-            <i class="fa fa-instagram"></i></a> </span>
-          <span><a href="https://twitter.com/myasiwajustory" target="_blank">
-            <i class="fa fa-twitter"></i></a> </span>
       <?php /*    [5:09 pm, 15/09/2022] Melonie Meme: https://www.snapchat.com/add/myasiwajustory?share_id=4HvAVE6-Juo&locale=en-GB
 [5:09 pm, 15/09/2022] Melonie Meme: https://www.tiktok.com/@myasiwajustory?is_from_webapp=1&sender_device=pc
 
