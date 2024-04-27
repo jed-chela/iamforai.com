@@ -39,28 +39,13 @@
 
       </div>
     </div>
-
-    <div class="row">
-      <div class="text-center mt-5 animate__animated" data-effect="animate__fadeInUp __delay1">
-        <a href="<?php echo base_url();?>uploads/FbX_Investor_Deck.pdf" download><button class="btn btn-default">Download Our Investor's Deck</button></a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="text-center mt-5 mb-5 animate__animated" data-effect="animate__fadeInUp __delay1">
-        <a href="mailto:team@fbx.ventures" class="mb-4 mb-md-0" ><i class="fa fa-envelope"></i> team@fbx.ventures</a>  
-        <br class="mobile_only" />
-        <br class="mobile_only" />
-        <a href="http://calendly.com/fbxvc" class="ms-3" target="_blank"><i class="fa fa-calendar"></i> Schedule a meeting with FbX</a>
-      </div>
-    </div>
-
+    
   </div>
   
 </div>
 
 
-<?php // $this->load->view("temp_footer"); ?>
+<?php $this->load->view("temp_footer"); ?>
 <?php $this->load->view("temp_footer_links"); ?>
 <script type="text/javascript">
   function showAnimate(entries, observer)

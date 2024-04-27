@@ -9,7 +9,8 @@ body{
   font-size: 18px;
   line-height: 1.5rem;
   line-height: normal;
-  background:#9A52C7;
+  background: #4ECDC4;
+;
   color: #FFF;
   overflow: visible;
 }
@@ -51,7 +52,7 @@ a:hover{
 .header{
   position: fixed;
   background: #FFF;
-  background: #9A52C7;
+  background: #4ECDC4;
 }
 .header__logo {
     border-radius: 0;
@@ -68,6 +69,8 @@ a:hover{
 }
 .menu__list{
   margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 .menu__link{
   font-family: Poppins;
@@ -76,7 +79,7 @@ a:hover{
   color: #000;
 }
 .menu__list > li {
-  margin-left: 30px;
+  margin-left: 0px;
 }
 .header__container{
   min-height: 90px;
@@ -87,7 +90,7 @@ main.page{
 @media (max-width: 767px){
   .menu__body::before {
       background: #FFF;
-      background: #9A52C7;
+      background: #4ECDC4;
   }
   .menu__icon span, .menu__icon::before, .menu__icon::after {
     background-color: #000;
@@ -96,8 +99,7 @@ main.page{
   .menu__body {
     background-color: rgb(255 255 255 / 95%);
     background-color: #000;
-    background-color: #9A52C7;
-    /* background-color: #4f2867; */
+    background-color: #4ECDC4;
   }
   .logo-box img{
 /*    min-height: 80px;
