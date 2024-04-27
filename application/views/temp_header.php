@@ -36,7 +36,7 @@
             <!-- Replace Your Site Links -->
             <nav data-sub_menu_auto_close="true" class="menu__body">
               <!-- Logo -->
-              <a href="<?php echo base_url(); ?>" class="nav__logo">
+              <a href="<?php echo base_url(); ?>" class="nav__logo  d-md-none d-lg-none">
                 <img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1">
               </a>
 
