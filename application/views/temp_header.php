@@ -27,7 +27,7 @@
       <header class="header">
         <div class="header__container">
           <!-- Logo -->
-          <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1" class="header__logo"></a>
+          <a href="<?php echo base_url(); ?>" style="visibility:hidden;"><img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1" class="header__logo"></a>
           <!-- Hamburger Toggle Button -->
           <div class="header__menu menu">
             <div class="menu__icon">
@@ -35,22 +35,27 @@
             </div>
             <!-- Replace Your Site Links -->
             <nav data-sub_menu_auto_close="true" class="menu__body">
+              <!-- Logo -->
+              <a href="<?php echo base_url(); ?>" class="nav__logo">
+                <img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1">
+              </a>
+
               <ul class="menu__list">
-                <li>
+                <li class="me-3">
                   <a data-goto=".page__section_1" href="<?= base_url() ?>" class="menu__link <?= $active_home; ?>" >
                     <i class=""></i><span> Home</span></a>
                 </li>
-                <li>
+                <li class="me-3">
                   <a data-goto=".page__section_2" href="<?= base_url() ?>about" class="menu__link <?= $active_about; ?>" >
                     <i class=""></i><span> About</span></a>
                 </li>
-                <li>
+                <li class="me-3">
                   <a data-goto=".page__section_2" href="<?= base_url() ?>contact" class="menu__link <?= $active_contact; ?>" >
                     <i class=""></i><span> Contact Us</span></a>
                 </li>
                             
               </ul>
-              <div>
+              <div class="follow-header d-md-none d-lg-none">
                 <div>FOLLOW ASUE IGHODALO</div>
                 <div>
                   <span><a href="#" target="_blank">

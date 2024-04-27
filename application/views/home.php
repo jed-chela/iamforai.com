@@ -16,30 +16,45 @@
 -->
 
 <div class="main-content-holder">
-  <div class="container container-sm">
+  <div class="container container-sm hero-container">
     <div class="row">
       <div class="hero-box animate__animated" data-effect="animate__fadeInLeft __delay1">
-        <h1>Venture <br class="mobile_only" />Capital</h1>
+        <div>
+          <img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png" class="">
+        </div>
+        <div>
+          <button class="btn btn-default mt-5">Volunteer</button>
+        </div>
       </div>
       <div class="hero-subtitle text-center animate__animated" data-effect="animate__fadeInLeft __delay3">
-        <h3>as-is is broken</h3>
+
       </div>
     </div>
 
     <div class="row">
-      <div class="belief-box animate__animated" data-effect="animate__fadeInUp __delay7">
+      <div class="belief-box animate__animated mx-3 mb-5" data-effect="animate__fadeInUp __delay7">
         <i class="fa fa-arrow-up-right belief-arrow-right-up"></i>
-        <h4>Our Belief</h4>
-        <p>Founding teams suffer from the blindsides of the worm’s eye view. VCs suffer from the blindsides of the bird’s eye view.</p>
-        <p>Both sides of the divide have been caught up in a rut. We are inspired to do VC differently.</p>
-        <p>Building a startup is already hard, we understand this and would not give any founder false hope.</p>
-        <p>Our thesis has been carefully designed to ensure we can build for the resurgent economy.</p>
-        <p>We believe the African digital ecosystem deserves more exits to enable re-investments and re-injection of capital. From our lenses, we believe it would be better to achieve a 5x in 6-8 years, than to wait till eternity for a  >15x that will/may never show up.</p>
-        <p>If like us, you are tired of VC-as-we-know-it and bullish on Africa. If you are open to the possibilities of an early, yet rewarding exit by building new ventures that would be cash-rich & era-resistant, you are welcome to join us on this journey.</p>
+        <p>Sons and daughters of Edo! <br/>
+        Wake up, the sun is up <br/>
+        a new day is here <br/>
+        Asue Ighodalo has stepped forward <br/>
+        We are moving with him.</p>
+
+        <p>Hand in hand, we march ahead, <br/>
+        With Asue's leadership, we are sure <br/>
+        Our future is assured. </p>
+         
+        <p>Together we stan <br/>
+        for prosperity we strive, <br/>
+        Join the movement, <br/>
+        let your voice resound, </p>
+
+        <p>Edo is about to make history <br/>
+        Let’s give Asue the Victory.</p>
 
       </div>
     </div>
-    
+
   </div>
   
 </div>
