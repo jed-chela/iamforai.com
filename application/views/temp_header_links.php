@@ -8,8 +8,8 @@ if(isset($title)){
   $page_title = $title;
 }
 
-$site_name = "FbX";
-$site_description = "FbX is backing African startups solving real & rewarding problems";
+$site_name = "iAmForAI";
+$site_description = "iAmForAI";
 
 ?>
 <!doctype html>
