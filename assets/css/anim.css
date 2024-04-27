@@ -1,0 +1,135 @@
+/* Animation extra rules */
+body .animate__animated{ 
+  visibility:hidden;
+}
+body .animate__backInRight,
+body .animate__bounceIn,
+body .animate__bounceInLeft,
+body .animate__bounceInRight,
+body .animate__bounceInDown,
+body .animate__wobble,
+body .animate__pulse,
+body .animate__lightSpeedInLeft,
+body .animate__lightSpeedInRight,
+body .animate__fadeInRight,
+body .animate__fadeInLeft,
+body .animate__fadeInUp,
+body .animate__fadeInDown,
+body .animate__jackInTheBox,
+body .animate__flipInX,
+body .animate__flipOutX,
+body .animate__rubberBand{ 
+  visibility:visible !important;
+}    
+/* Delay rules */
+
+.__delay750{
+  -webkit-animation-delay:0.75s;
+  animation-delay:0.75s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.75);
+  animation-delay:calc(var(--animate-delay)*0.75);
+}
+.__delay500{
+  -webkit-animation-delay:0.5s;
+  animation-delay:0.5s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.5);
+  animation-delay:calc(var(--animate-delay)*0.5);
+}
+.__delay250{
+  -webkit-animation-delay:0.25s;
+  animation-delay:0.25s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.25);
+  animation-delay:calc(var(--animate-delay)*0.25);
+}
+.__duration5{
+  -webkit-animation-duration:5s !important;
+  animation-duration:5s !important;
+  -webkit-animation-duration:calc(var(--animate-duration)*5) !important;
+  animation-duration:calc(var(--animate-duration)*5) !important;
+}
+.__delay1{
+  -webkit-animation-delay:0.1s;
+  animation-delay:0.1s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.1);
+  animation-delay:calc(var(--animate-delay)*0.1);
+}
+.__delay2{
+  -webkit-animation-delay:0.12s;
+  animation-delay:0.12s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.12);
+  animation-delay:calc(var(--animate-delay)*0.12);
+}
+.__delay3{
+  -webkit-animation-delay:0.14s;
+  animation-delay:0.14s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.14);
+  animation-delay:calc(var(--animate-delay)*0.14);
+}
+.__delay4{
+  -webkit-animation-delay:0.16s;
+  animation-delay:0.16s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.16);
+  animation-delay:calc(var(--animate-delay)*0.16);
+}
+.__delay5{
+  -webkit-animation-delay:0.18s;
+  animation-delay:0.18s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.18);
+  animation-delay:calc(var(--animate-delay)*0.18);
+}
+.__delay6{
+  -webkit-animation-delay:0.2s;
+  animation-delay:0.2s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.2);
+  animation-delay:calc(var(--animate-delay)*0.2);
+}
+.__delay7{
+  -webkit-animation-delay:0.22s;
+  animation-delay:0.22s;
+  -webkit-animation-delay:calc(var(--animate-delay)*0.22);
+  animation-delay:calc(var(--animate-delay)*0.22);
+}
+
+.spin_elem {
+/*    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: #f00; */
+    -webkit-animation-name: spin1;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin1;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin1;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin1;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin1 {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin1 {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin1 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin1 {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

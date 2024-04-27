@@ -1,0 +1,33 @@
+APIs
+
+POST
+- View Posts
+	GET category_id
+- Search Posts
+	GET category_id, needle
+- Add a Post
+	POST category, title, message, file
+
+COMMENT
+- View Comment Summary
+	GET post_id
+- View Comments
+	GET post_id
+- Load More Comments
+	GET post_id, last_comment_id
+
+- Add a Comment
+	POST post_id, message
+
+Activities
+- Guests
+ - Access the site annonymously
+ - Views FAQs
+ - Searches and Views existing Posts on ATM Fraud, SMS Fraud, or Third Party Fraud
+ - Can Share a Post
+ - Adds Posts on ATM Fraud, SMS Fraud, or Third Party Fraud
+ - View Comments on existing Posts
+ - Add Comments to existing Posts
+
+
+

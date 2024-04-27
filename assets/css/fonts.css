@@ -1,0 +1,55 @@
+
+@font-face {
+  font-family: "SplineSans";
+  src: url("../fonts/SplineSans/SplineSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url("../fonts/Gilroy/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("../fonts/Gilroy/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish/Mulish-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "WantedM54";
+  src: url("../fonts/Wanted/WantedM54.ttf");
+}
+
+@font-face {
+  font-family: "BRFirma";
+  src: url("../fonts/BRFirma/BRFirma-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BRFirmaBold";
+  src: url("../fonts/BRFirma/BRFirma-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Campton";
+  src: url("../fonts/Campton/Campton-Light.ttf");
+}
+
+@font-face {
+  font-family: "CamptonSemi";
+  src: url("../fonts/Campton/Campton-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Regular.ttf");
+}

@@ -1,0 +1,21 @@
+Activities
+- Guests
+ - Access the site annonymously
+ - Views FAQs
+ - Searches and Views existing Posts on ATM Fraud, SMS Fraud, or Third Party Fraud
+ - Can Share a Post
+ - Adds Posts on ATM Fraud, SMS Fraud, or Third Party Fraud
+ - Comments on existing Posts
+
+
+USE A CAPTCHA WITH CDN TO PREVENT BOTS
+
+
+Database Tables and Fields
+- Guest (ID, )
+- Category (ID, Label, Title (ATM Fraud, SMS Fraud, Third Party Fraud), Subtitle ("Shine your eyes for frauds and scams. 
+Confam every call or messages that consigns your bank and money.") )
+
+- Post (ID, Title, Message, Category ID )
+- Comment (ID, Post ID, Message )
+- Photos (ID, Category ID, Post ID, Filename, File Ext )

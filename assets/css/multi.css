@@ -1,0 +1,141 @@
+@media screen and (min-width: 1040px) {
+  logo{
+    display: block;
+    float: left;
+  }
+  logo img{
+    width: 10vw;
+  }
+  .container{
+    padding: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  .main-content-holder{
+    margin-top: 2vh;
+    margin-left: 50px;
+    margin-right: -2px;
+    overflow: visible;
+  }
+
+  /* Menu Styles */
+
+  .menu__link_alt{
+    display: inline-block;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #000;
+    color: #FFF !important;
+  }
+
+  /*End Menu Styles */
+
+  nav{
+    float: right;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  .mobile_visible, .mobile-visible{ 
+    visibility:hidden;
+  }
+  .mobile_only, .mobile-only{ 
+    display:none;
+  }
+  .desktop_only, .desktop-only{
+    display: block;
+  }
+/*}
+@media screen and (min-device-width: 451px) { */
+  .small-break{
+    display: none;
+  }
+  .big-break{
+    display: inline;
+  }
+  h1{
+    font-size: 4.3vw;
+  }
+  h2{
+    font-size: 3.15vw;
+  }
+  h3{
+    font-size: 2.15vw;
+  }
+  h4{
+    font-size: 22px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .gradient-text{
+    
+  }
+
+  .belief-box li{
+    font-size: 18px;
+  }
+
+  .link-little{
+    font-size: 14px;
+  }
+
+  .col-20{
+    width: calc(100% / 5);
+  }
+
+  .hero-box h1{
+    font-size: 90px;
+  }
+
+  .hero-subtitle h3{
+    font-size: 45px;
+  }
+
+  footer{
+    padding: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 13px;
+  }
+  .footer-left{
+    float: left;
+    text-align: left;
+  }
+  .footer-right{
+    text-align: right;
+    margin: 0;
+  }
+  .footer-right span{
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .button-link{
+    
+  }
+  .goog-te-gadget-simple{
+    background-color: #313131 !important;
+    border: none !important;
+  }
+
+
+}
+
+@media screen and (min-width: 500px) {
+  
+}
+
+/* Desktop View  */
+@media screen and (min-width: 769px) {
+
+}
+
+/* Desktop View  */
+@media screen and (max-width: 1200px) {
+  .social-links-section-box1{
+    overflow: hidden;
+    margin-top: 0%;
+  }
+
+}
