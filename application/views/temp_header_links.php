@@ -9,7 +9,7 @@ if(isset($title)){
 }
 
 $site_name = "iAmForAI";
-$site_description = "iAmForAI";
+$site_description = "Move with the movement";
 
 ?>
 <!doctype html>
@@ -29,7 +29,7 @@ $site_description = "iAmForAI";
 <meta name="description" content="<?= $site_description ?>">
 <title><?= $site_name." ".$page_title ?></title>
 
-<meta property="og:image" content="<?php echo base_url(); ?>assets/img/iamforai-logo.png">
+<meta property="og:image" content="<?php echo base_url(); ?>assets/img/iamforai-logo-black.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="1024">
@@ -39,7 +39,7 @@ $site_description = "iAmForAI";
 <meta property="og:description" content="<?= $site_description ?>" />
 
 
-<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/iamforai-logo.png">
+<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/iamforai-logo-black.png">
 <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/fonts.css">  <!--
 <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/fontawesome/css/font-awesome.min.css">-->
 <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/fontawesome6.0/css/all.min.css">

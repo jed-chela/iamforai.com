@@ -356,6 +356,9 @@ small{
 .belief-box{
 
 }
+.belief-box p{
+  font-weight: bold;
+}
 .belief-box p, .belief-box li{
   line-height: 1.5;
 }
