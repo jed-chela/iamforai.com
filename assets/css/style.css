@@ -9,7 +9,8 @@ body{
   font-size: 18px;
   line-height: 1.5rem;
   line-height: normal;
-  background:#9A52C7;
+  background: #4ECDC4;
+;
   color: #FFF;
   overflow: visible;
 }
@@ -41,6 +42,7 @@ a:hover{
 }
 .main-content-holder{
   margin-top: 50px;
+  margin-top: 5px;
   overflow: visible;
 }
 
@@ -49,9 +51,9 @@ a:hover{
   min-height: auto;
 }
 .header{
-  position: fixed;
+  position: relative;
   background: #FFF;
-  background: #9A52C7;
+  background: #4ECDC4;
 }
 .header__logo {
     border-radius: 0;
@@ -68,26 +70,31 @@ a:hover{
 }
 .menu__list{
   margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 .menu__link{
   font-family: Poppins;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   color: #000;
 }
 .menu__list > li {
-  margin-left: 30px;
+  margin-left: 0px;
+  margin-bottom: 20px;
 }
 .header__container{
   min-height: 90px;
 }
 main.page{
   padding: 90px 0 0px 0;
+  padding: 0px 0 0px 0;
 }
 @media (max-width: 767px){
   .menu__body::before {
+    position: relative;
       background: #FFF;
-      background: #9A52C7;
+      background: #4ECDC4;
   }
   .menu__icon span, .menu__icon::before, .menu__icon::after {
     background-color: #000;
@@ -96,8 +103,7 @@ main.page{
   .menu__body {
     background-color: rgb(255 255 255 / 95%);
     background-color: #000;
-    background-color: #9A52C7;
-    /* background-color: #4f2867; */
+    background-color: #4ECDC4;
   }
   .logo-box img{
 /*    min-height: 80px;
@@ -108,6 +114,24 @@ main.page{
   color: #FFF;
 }
 /*End Menu Styles */
+.menu__list{
+  margin-top: -50px;
+}
+.nav__logo{
+  top: -75px;
+  position: relative;
+  z-index: 7;
+  overflow: auto;
+}
+.nav__logo img{
+  height: 200px;
+  margin-bottom: 25px;
+}
+.follow-header{
+  border-top: 1px solid #333;
+  margin-top: 125px;
+  padding-top: 25px;
+}
 
 .alt-bg{
   background-color: #EDF2F5;
@@ -261,7 +285,7 @@ h4{
   font-size: 16px;
 }
 p{
-  font-size: 14px;
+  font-size: inherit;
 }
 small{
   font-size: 10px;
@@ -298,6 +322,13 @@ small{
 /*  min-height: 100vh;
   overflow: hidden; */
 }
+.section-h100{
+  min-height: 90vh;
+}
+.move-box{
+  margin-left: 0;
+  padding-left: 0;
+}
 
 .button-link{
   background-color: rgba(243, 185, 68, 1);
@@ -311,10 +342,15 @@ small{
   border-radius: 0.5px !important;
 }
 
+.hero-container{
+  margin:0;
+  padding: 0;
+}
 .hero-box{
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #FFF;
+  background: url("../img/site/ai-bg-1.png") no-repeat top center;
+  background-size: cover;
   text-align: center;
+  height: 90vh;
 }
 .hero-box h1{
   font-size: 50px;
@@ -328,12 +364,23 @@ small{
 .belief-box{
 
 }
+.belief-box p{
+  font-weight: bold;
+}
 .belief-box p, .belief-box li{
   line-height: 1.5;
+  line-height: 1.7;
 }
 .belief-box li{
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+.move-box{
+  background: url("../img/site/ai-bg-2.png") no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  height: 90vh;
 }
 
 .navi-icon-box .navi-icon{
@@ -345,7 +392,7 @@ small{
 }
 
 footer{
-  background-color: #8C4523;
+  background-color: #333;
   color: #FFF;
   font-size: 16px;
   padding: 5vw;

@@ -1,24 +1,12 @@
 <?php
    $active_home     = "";
-   $active_impact    = "";
-   $active_fractional = "";
-   $active_philosophy = "";
-   $active_story      = "";
+   $active_about    = "";
    $active_contact  = "";
 
    if(isset($active_menu)){
      switch ($active_menu) {
-       case 'impact':
-         $active_impact        = "active";
-         break;
-       case 'fractional':
-         $active_fractional    = "active";
-         break;
-       case 'philosophy':
-         $active_philosophy    = "active";
-         break;
-       case 'story':
-         $active_story    = "active";
+       case 'about':
+         $active_about        = "active";
          break;
 
 
@@ -39,7 +27,7 @@
       <header class="header">
         <div class="header__container">
           <!-- Logo -->
-          <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1" class="header__logo"></a>
+          <a href="<?php echo base_url(); ?>" style="visibility:hidden;"><img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1" class="header__logo"></a>
           <!-- Hamburger Toggle Button -->
           <div class="header__menu menu">
             <div class="menu__icon">
@@ -47,29 +35,39 @@
             </div>
             <!-- Replace Your Site Links -->
             <nav data-sub_menu_auto_close="true" class="menu__body">
+              <!-- Logo -->
+              <a href="<?php echo base_url(); ?>" class="nav__logo  d-md-none d-lg-none">
+                <img src="<?php echo base_url(); ?>assets/img/iamforai-logo.png?1">
+              </a>
+
               <ul class="menu__list">
-                <li>
+                <li class="me-3">
                   <a data-goto=".page__section_1" href="<?= base_url() ?>" class="menu__link <?= $active_home; ?>" >
                     <i class=""></i><span> Home</span></a>
                 </li>
-                <li>
-                  <a data-goto=".page__section_2" href="<?= base_url() ?>story" class="menu__link <?= $active_story; ?>" >
-                    <i class=""></i><span> Our Story</span></a>
+                <li class="me-3">
+                  <a data-goto=".page__section_2" href="<?= base_url() ?>about" class="menu__link <?= $active_about; ?>" >
+                    <i class=""></i><span> About</span></a>
                 </li>
-                <li>
-                  <a data-goto=".page__section_2" href="<?= base_url() ?>philosophy" class="menu__link <?= $active_philosophy; ?>" >
-                    <i class=""></i><span> Our Philosophy</span></a>
-                </li>
-                <li>
-                  <a data-goto=".page__section_2" href="<?= base_url() ?>impact_thesis" class="menu__link <?= $active_impact; ?>" >
-                    <i class=""></i><span> Impact Thesis</span></a>
-                </li>
-                <li>
-                  <a data-goto=".page__section_2" href="<?= base_url() ?>fractional_support" class="menu__link <?= $active_fractional; ?>" >
-                    <i class=""></i><span> Fractional Support</span></a>
+                <li class="me-3">
+                  <a data-goto=".page__section_2" href="<?= base_url() ?>contact" class="menu__link <?= $active_contact; ?>" >
+                    <i class=""></i><span> Contact Us</span></a>
                 </li>
                             
               </ul>
+              <div class="follow-header d-md-none d-lg-none">
+                <div>FOLLOW ASUE IGHODALO</div>
+                <div>
+                  <span><a href="#" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a> </span>
+                  <span><a href="#" target="_blank">
+                    <i class="fa-brands fa-facebook"></i></a> </span>
+                  <span><a href="#" target="_blank">
+                    <i class="fa-brands fa-x"></i></a> </span>
+                  <span><a href="#" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i></a> </span>
+                </div>
+              </div>
             </nav>
 
           </div>

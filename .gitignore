@@ -18,4 +18,3 @@ application/config/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
-index.php
