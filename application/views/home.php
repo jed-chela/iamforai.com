@@ -32,9 +32,9 @@
     </div>
 
     <div class="row">
-      <div class="belief-box animate__animated mx-3 mb-5" data-effect="animate__fadeInUp __delay7">
-        <i class="fa fa-arrow-up-right belief-arrow-right-up"></i>
-        <p>Sons and daughters of Edo! <br/>
+      <div class="belief-box section-h100 animate__animated mx-3 mb-5" data-effect="animate__fadeInUp __delay7">
+        <p class="mt-5">&nbsp;</p>
+        <p class="mt-3">Sons and daughters of Edo! <br/>
         Wake up, the sun is up <br/>
         a new day is here <br/>
         Asue Ighodalo has stepped forward <br/>
@@ -52,6 +52,24 @@
         <p>Edo is about to make history <br/>
         Let’s give Asue the Victory.</p>
 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="move-box section-h100 animate__animated mb-5" data-effect="animate__fadeInUp __delay7">
+        <div class="move-box-inner">
+          <h1>MOVE WITH THE MOVEMENT</h1>
+          <div>
+            <span><a href="#" target="_blank">
+              <i class="fa-brands fa-instagram"></i></a> </span>
+            <span><a href="#" target="_blank">
+              <i class="fa-brands fa-facebook"></i></a> </span>
+            <span><a href="#" target="_blank">
+              <i class="fa-brands fa-x"></i></a> </span>
+            <span><a href="#" target="_blank">
+              <i class="fa-brands fa-tiktok"></i></a> </span>
+          </div>
+        </div>
       </div>
     </div>
 

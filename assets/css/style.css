@@ -92,6 +92,7 @@ main.page{
 }
 @media (max-width: 767px){
   .menu__body::before {
+    position: relative;
       background: #FFF;
       background: #4ECDC4;
   }
@@ -321,6 +322,13 @@ small{
 /*  min-height: 100vh;
   overflow: hidden; */
 }
+.section-h100{
+  min-height: 90vh;
+}
+.move-box{
+  margin-left: 0;
+  padding-left: 0;
+}
 
 .button-link{
   background-color: rgba(243, 185, 68, 1);
@@ -361,10 +369,18 @@ small{
 }
 .belief-box p, .belief-box li{
   line-height: 1.5;
+  line-height: 1.7;
 }
 .belief-box li{
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+.move-box{
+  background: url("../img/site/ai-bg-2.png") no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  height: 90vh;
 }
 
 .navi-icon-box .navi-icon{
