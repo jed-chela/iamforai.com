@@ -131,7 +131,9 @@
 
 /* Desktop View  */
 @media screen and (min-width: 769px) {
-
+  .menu__list{
+    margin-top: unset;
+  }
 }
 
 /* Desktop View  */
