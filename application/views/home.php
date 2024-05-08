@@ -73,6 +73,39 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="merch-box section-h50 animate__animated mb-5" data-effect="animate__fadeInUp __delay7">
+        <div class="merch-box-inner">
+          
+          <div>
+            <button class="btn btn-default">Get Merch</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="links-box section-h50 animate__animated mb-5" data-effect="animate__fadeInUp __delay7">
+        <div class="links-box-inner">
+          
+          <div>
+            <div class="border">
+              <div>
+                <h3 class="text-white">About</h3>
+                <div><i class="fa fa-arrow-right"></i></div>
+              </div>
+            </div>
+            <div class="border">
+              <div>
+                <h3 class="text-white">Contact</h3>
+                <div><i class="fa fa-arrow-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
   
 </div>

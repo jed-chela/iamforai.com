@@ -19,7 +19,7 @@ https://twitter.com/myasiwajustory  */ ?>
         </div>
         <div class="row">
           <div class="col-md-6 footer-left">
-            <span>My Asiwaju Story <?= date("Y"); ?> All Rights Reserved</span>
+            <span><?= date("Y"); ?> All Rights Reserved</span>
           </div>
           <div class="col-md-6 footer-right">
         <?php /*    <span>Powered by</span>

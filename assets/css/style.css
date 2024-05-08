@@ -104,6 +104,7 @@ main.page{
     background-color: rgb(255 255 255 / 95%);
     background-color: #000;
     background-color: #4ECDC4;
+    overflow-y: hidden;
   }
   .logo-box img{
 /*    min-height: 80px;
@@ -324,6 +325,9 @@ small{
 }
 .section-h100{
   min-height: 90vh;
+}
+.section-h50{
+  min-height: 50vh;
 }
 .move-box{
   margin-left: 0;
